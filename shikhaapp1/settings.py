@@ -127,7 +127,7 @@ USE_TZ = True
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-ALLOWED_HOSTS = ['heroappshikha.herokuapp.com',"127.0.0.1"]
+ALLOWED_HOSTS = ['*']
 
 
 # Static files (CSS, JavaScript, Images)

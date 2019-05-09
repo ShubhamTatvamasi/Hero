@@ -1,0 +1,14 @@
+version: "3"
+services:
+  hero:
+    container_name: hero
+    image: shubhamtatvamasi/hero
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: sleep infinity
+    # command: python manage.py runserver 0.0.0.0:8000
+    # command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
