@@ -5,8 +5,9 @@ RUN pip install \
       dj-database-url \
       djangorestframework \
       six \
-      keras \
+      Keras \
       tensorflow \
       Pillow \
       pandas \
-      whitenoise
+      whitenoise \
+      opencv-python
